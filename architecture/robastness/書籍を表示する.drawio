@@ -1,11 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T08:33:34.814Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="zhg2X7V4qopavNN_w4yW" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T13:38:27.134Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="fjdBKxhwwfyOlyXo1tef" version="16.5.6" type="github">
   <diagram id="_8ZyoL8Y4La_zpmy5LaL" name="Page-1">
-    <mxGraphModel dx="881" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="938" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dx-aQ0KoJILxpsaa_ast-1" value="顧客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="440" width="30" height="60" as="geometry" />
+        <mxCell id="T5APIE9CymFZLiyWveOl-11" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="dx-aQ0KoJILxpsaa_ast-1" target="T5APIE9CymFZLiyWveOl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5APIE9CymFZLiyWveOl-12" value="ホームページのURLを入力する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T5APIE9CymFZLiyWveOl-11">
+          <mxGeometry x="-0.0981" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T5APIE9CymFZLiyWveOl-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="dx-aQ0KoJILxpsaa_ast-1" target="T5APIE9CymFZLiyWveOl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5APIE9CymFZLiyWveOl-15" value="リンクをクリックする" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T5APIE9CymFZLiyWveOl-14">
+          <mxGeometry x="0.0704" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dx-aQ0KoJILxpsaa_ast-1" value="顧客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5APIE9CymFZLiyWveOl-3" value="&lt;b&gt;基本コース：&lt;/b&gt;&lt;br&gt;顧客は書店のホームページのURLを入力し、システムはそれを表示する。それから、顧客は書籍を見るためのリンクをクリックする。システムは書籍詳細を取得し、書籍詳細画面を表示する。&lt;br&gt;&lt;br&gt;&lt;b&gt;代替コース：&lt;br&gt;&lt;/b&gt;書籍が見つからなかった場合：&lt;br&gt;システムは「書籍が見つかりません」画面を表示する。" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="190" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="T5APIE9CymFZLiyWveOl-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="T5APIE9CymFZLiyWveOl-10" target="T5APIE9CymFZLiyWveOl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5APIE9CymFZLiyWveOl-10" value="ホームページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T5APIE9CymFZLiyWveOl-13" value="書籍詳細画面を見る" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T5APIE9CymFZLiyWveOl-16" value="表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="90" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
