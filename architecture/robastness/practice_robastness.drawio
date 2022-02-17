@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T06:04:53.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="ZYCyxMMSCnbX6GMZsN6F" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T05:48:14.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="jwhuIXGkHRdiWiyoptq4" version="16.5.6" type="github">
   <diagram id="TSxa-5qWYG_7hiWKHgxk" name="Page-1">
-    <mxGraphModel dx="881" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1259" dy="1516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry x="610" y="290" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ADlxo3nI8TgN2A9nGeq5-7" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;b&gt;基本コース：&lt;/b&gt;&lt;br&gt;ユーザーはどこかのページから「ログイン」リンクをクリックします。&lt;br&gt;システムは「ログイン」ページを表示します。&lt;br&gt;ユーザーはユーザー名とパスワードを入力して「ログイン」ボタンをクリックします。&lt;br&gt;システムはそのユーザーのアカウントが存在するかどうかを確認するために、マスターアカウントリストをチェックします。もし、アカウントが存在すレバ、システムはパスワードをチェックします。システムはアカウント情報を取得して認証されたセッションを開始し、歓迎メッセージとともに直前のページを再表示します。&lt;br&gt;&lt;br&gt;&lt;b&gt;代替コース：&lt;/b&gt;&lt;br&gt;ユーザーがパスワードを忘れた場合：&lt;br&gt;ユーザーは「私のパスワードは？」リンクをクリックします。まだユーザー名が入力されていない場合、システムは「ユーザー名入力」ページを表示し、アカウント情報を取得してパスワードをユーザーにメールします。&lt;br&gt;&lt;br&gt;アカウントが正しくない場合：&lt;br&gt;システムは「ユーザー名またはパスワード」が正しくないことを示すメッセージを表示し、ユーザーにそれらの再入力を&lt;br&gt;&lt;br&gt;ユーザーがログインをキャンセルした場合：&lt;br&gt;システムは直前のページを再表示します。&lt;br&gt;&lt;br&gt;３回目のログイン失敗の場合：&lt;br&gt;システムはユーザーのアカウントをロックします。ユーザーはロックを解除するためにカスタマーサービスに連絡をしなければなりません。" style="shape=note;size=25;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="481" width="650" height="360" as="geometry" />
+          <mxGeometry x="20" y="780" width="650" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
