@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T05:48:14.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="jwhuIXGkHRdiWiyoptq4" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T08:30:07.788Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="MxK7TqceoUgxQ-ABFnKq" version="16.5.6" type="github">
   <diagram id="TSxa-5qWYG_7hiWKHgxk" name="Page-1">
-    <mxGraphModel dx="1259" dy="1516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="927" dy="1476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,26 +13,145 @@
         <mxCell id="ADlxo3nI8TgN2A9nGeq5-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-2" target="ADlxo3nI8TgN2A9nGeq5-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ADlxo3nI8TgN2A9nGeq5-2" value="ログインページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-33" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-2" target="ADlxo3nI8TgN2A9nGeq5-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-2" value="ログインページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="210" y="200" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ADlxo3nI8TgN2A9nGeq5-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.04;entryY=0.325;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-3" target="ADlxo3nI8TgN2A9nGeq5-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ADlxo3nI8TgN2A9nGeq5-3" value="ログインページを表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-3" value="ログインページを表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="90" y="90" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ADlxo3nI8TgN2A9nGeq5-12" value="「ログイン」ボタンをクリック" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-5" target="ADlxo3nI8TgN2A9nGeq5-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ADlxo3nI8TgN2A9nGeq5-5" value="ユーザー名とパスワードを入力する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-5" value="ユーザー名とパスワードを入力する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="380" y="80" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ADlxo3nI8TgN2A9nGeq5-6" value="アカウントは存在するか？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="610" y="290" width="70" height="80" as="geometry" />
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-6" target="ADlxo3nI8TgN2A9nGeq5-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ADlxo3nI8TgN2A9nGeq5-7" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;b&gt;基本コース：&lt;/b&gt;&lt;br&gt;ユーザーはどこかのページから「ログイン」リンクをクリックします。&lt;br&gt;システムは「ログイン」ページを表示します。&lt;br&gt;ユーザーはユーザー名とパスワードを入力して「ログイン」ボタンをクリックします。&lt;br&gt;システムはそのユーザーのアカウントが存在するかどうかを確認するために、マスターアカウントリストをチェックします。もし、アカウントが存在すレバ、システムはパスワードをチェックします。システムはアカウント情報を取得して認証されたセッションを開始し、歓迎メッセージとともに直前のページを再表示します。&lt;br&gt;&lt;br&gt;&lt;b&gt;代替コース：&lt;/b&gt;&lt;br&gt;ユーザーがパスワードを忘れた場合：&lt;br&gt;ユーザーは「私のパスワードは？」リンクをクリックします。まだユーザー名が入力されていない場合、システムは「ユーザー名入力」ページを表示し、アカウント情報を取得してパスワードをユーザーにメールします。&lt;br&gt;&lt;br&gt;アカウントが正しくない場合：&lt;br&gt;システムは「ユーザー名またはパスワード」が正しくないことを示すメッセージを表示し、ユーザーにそれらの再入力を&lt;br&gt;&lt;br&gt;ユーザーがログインをキャンセルした場合：&lt;br&gt;システムは直前のページを再表示します。&lt;br&gt;&lt;br&gt;３回目のログイン失敗の場合：&lt;br&gt;システムはユーザーのアカウントをロックします。ユーザーはロックを解除するためにカスタマーサービスに連絡をしなければなりません。" style="shape=note;size=25;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
-          <mxGeometry x="20" y="780" width="650" height="360" as="geometry" />
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=open;endFill=0;startArrow=none;startFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-6" target="ADlxo3nI8TgN2A9nGeq5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-17" value="存在する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="ADlxo3nI8TgN2A9nGeq5-16">
+          <mxGeometry x="-0.0437" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-28" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-6" target="ADlxo3nI8TgN2A9nGeq5-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-29" value="存在しない" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="ADlxo3nI8TgN2A9nGeq5-28">
+          <mxGeometry x="0.0173" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-6" value="アカウントは存在するか？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-7" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;b&gt;基本コース：&lt;/b&gt;&lt;br&gt;ユーザーはどこかのページから「ログイン」リンクをクリックします。&lt;br&gt;システムは「ログイン」ページを表示します。&lt;br&gt;ユーザーはユーザー名とパスワードを入力して「ログイン」ボタンをクリックします。&lt;br&gt;システムはそのユーザーのアカウントが存在するかどうかを確認するために、マスターアカウントリストをチェックします。もし、アカウントが存在すれば、システムはパスワードをチェックします。システムはアカウント情報を取得して認証されたセッションを開始し、歓迎メッセージとともに直前のページを再表示します。&lt;br&gt;&lt;br&gt;&lt;b&gt;代替コース：&lt;/b&gt;&lt;br&gt;ユーザーがパスワードを忘れた場合：&lt;br&gt;ユーザーは「私のパスワードは？」リンクをクリックします。まだユーザー名が入力されていない場合、システムは「ユーザー名入力」ページを表示し、アカウント情報を取得してパスワードをユーザーにメールします。&lt;br&gt;&lt;br&gt;アカウントが正しくない場合：&lt;br&gt;システムは「ユーザー名またはパスワード」が正しくないことを示すメッセージを表示し、ユーザーにそれらの再入力を&lt;br&gt;&lt;br&gt;ユーザーがログインをキャンセルした場合：&lt;br&gt;システムは直前のページを再表示します。&lt;br&gt;&lt;br&gt;３回目のログイン失敗の場合：&lt;br&gt;システムはユーザーのアカウントをロックします。ユーザーはロックを解除するためにカスタマーサービスに連絡をしなければなりません。" style="shape=note;size=25;whiteSpace=wrap;html=1;align=left;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1220" width="650" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-42" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-13" target="ADlxo3nI8TgN2A9nGeq5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-13" value="マスターアカウントリスト" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-21" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-15" target="ADlxo3nI8TgN2A9nGeq5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-22" value="正しい" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="ADlxo3nI8TgN2A9nGeq5-21">
+          <mxGeometry x="0.04" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-30" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-15" target="ADlxo3nI8TgN2A9nGeq5-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-31" value="正しくない" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="ADlxo3nI8TgN2A9nGeq5-30">
+          <mxGeometry x="0.1424" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-15" value="パスワードは正しいか？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="620" y="450" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-25" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-20" target="ADlxo3nI8TgN2A9nGeq5-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-20" value="アカウント情報を取得する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="725" y="550" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-23" target="ADlxo3nI8TgN2A9nGeq5-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-23" value="認証済みセッションの開始" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="720" y="700" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-24" value="歓迎メッセージとともに直前のページを表示する。" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="730" y="860" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-45" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-27" target="ADlxo3nI8TgN2A9nGeq5-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-27" value="「ユーザー名またはパスワード」が正しくないことを示すメッセージを表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="470" y="500" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-32" target="ADlxo3nI8TgN2A9nGeq5-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-32" value="「私のパスワードは？」をクリックする" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;strokeColor=#666666;fillColor=#f5f5f5;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="140" y="410" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-34" target="ADlxo3nI8TgN2A9nGeq5-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-34" value="「ユーザー名入力ページ」を表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="140" y="560" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-40" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-36" target="ADlxo3nI8TgN2A9nGeq5-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-36" value="ユーザー入力ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="120" y="730" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-37" value="アカウント" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-39" value="ユーザーにパスワードをメールする。" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="130" y="890" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-43" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;elbow=vertical;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="ADlxo3nI8TgN2A9nGeq5-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="430" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="870" y="430" />
+              <mxPoint x="870" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-41" value="アカウント情報を取得する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="830" y="350" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-46" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-44" target="ADlxo3nI8TgN2A9nGeq5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-48" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-44" target="ADlxo3nI8TgN2A9nGeq5-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-44" value="3回目のログイン失敗か？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-49" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;elbow=vertical;" edge="1" parent="1" source="ADlxo3nI8TgN2A9nGeq5-47" target="ADlxo3nI8TgN2A9nGeq5-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADlxo3nI8TgN2A9nGeq5-47" value="アカウントを凍結する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="310" y="820" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
