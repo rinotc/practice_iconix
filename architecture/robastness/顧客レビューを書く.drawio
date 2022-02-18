@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T04:59:43.541Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="iT2eAiKzngKjMgfegIk4" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T07:31:38.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="yrcrKIj22J0JxnclFPbK" version="16.6.1" type="github">
   <diagram id="DGkYznJSPutk3NiBNSYJ" name="Page-1">
     <mxGraphModel dx="1381" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HRKtO4Kyq1DwwRxE1as--1" value="&lt;b&gt;&lt;br&gt;基本コース：&lt;/b&gt;&lt;br&gt;現在見ている書籍の「書籍詳細」ページで、顧客は「レビューを書く」ボタンをクリックする。そして、システムは「レビューの記入」画面を表示する。顧客は書籍レビューを入力し、書籍評価を５つ星までの範囲で指定し「送信」ボタンをクリックする。システムはレビューが短すぎたり長すぎたりしないか、書籍評価が1〜５の間となっているかどうかを確認する。そしてシステムは確認ページを表示し、レビューを追加するためにモデレータに送る。&lt;br&gt;&lt;br&gt;&lt;b&gt;代替コース：&lt;br&gt;&lt;/b&gt;ユーザーがログインんしていない：&lt;br&gt;ユーザーはまずログイン画面を表示し、ログインしてからもう一度「レビューの記入」画面に移動する。&lt;br&gt;&lt;br&gt;&lt;br&gt;ユーザーが書いたレビューが長すぎる（1MBより長い文章）:&lt;br&gt;システムはレビューを拒絶し、レビューが拒絶された理由を説明するメッセージを表示する。&lt;br&gt;&lt;br&gt;レビューが短すぎる場合（10文字未満）:&lt;br&gt;システムはレビューを拒絶する。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="HRKtO4Kyq1DwwRxE1as--1" value="&lt;b&gt;&lt;br&gt;基本コース：&lt;/b&gt;&lt;br&gt;現在見ている書籍の「書籍詳細」ページで、顧客は「レビューを書く」ボタンをクリックする。システムは顧客がログイン済みかどうかを確認するために顧客セッションをチェックし、それから「レビューの記入」画面を表示する。顧客は書籍レビューを入力し、書籍評価を５つ星までの範囲で指定し「送信」ボタンをクリックする。システムはレビューが短すぎたり長すぎたりしないか、書籍評価が1〜５の間となっているかどうかを確認する。そしてシステムは確認ページを表示し、レビューを追加するためにモデレータに送る。&lt;br&gt;&lt;br&gt;&lt;b&gt;代替コース：&lt;br&gt;&lt;/b&gt;ユーザーがログインんしていない：&lt;br&gt;ユーザーはまずログイン画面を表示し、ログインしてからもう一度「レビューの記入」画面に移動する。&lt;br&gt;&lt;br&gt;&lt;br&gt;ユーザーが書いたレビューが長すぎる（1MBより長い文章）:&lt;br&gt;システムはレビューを拒絶し、レビューが拒絶された理由を説明するメッセージを表示する。&lt;br&gt;&lt;br&gt;レビューが短すぎる場合（10文字未満）:&lt;br&gt;システムはレビューを拒絶する。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="50" y="80" width="190" height="640" as="geometry" />
         </mxCell>
         <mxCell id="HRKtO4Kyq1DwwRxE1as--6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.019;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HRKtO4Kyq1DwwRxE1as--2" target="uWYxpY_xJqgRA1MKXE2g-11" edge="1">
@@ -24,7 +24,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HRKtO4Kyq1DwwRxE1as--2" value="顧客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="130" width="30" height="60" as="geometry" />
+          <mxGeometry x="310" y="290" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-4" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="HRKtO4Kyq1DwwRxE1as--5" target="uWYxpY_xJqgRA1MKXE2g-3">
           <mxGeometry relative="1" as="geometry" />
@@ -36,13 +36,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HRKtO4Kyq1DwwRxE1as--5" value="「レビューの記入」ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="665" y="240" width="100" height="80" as="geometry" />
+          <mxGeometry x="730" y="360" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-28" value="はい" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-3" target="uWYxpY_xJqgRA1MKXE2g-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-47" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-3" target="uWYxpY_xJqgRA1MKXE2g-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-49" value="いいえ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uWYxpY_xJqgRA1MKXE2g-47">
+          <mxGeometry x="-0.1661" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-3" value="書籍評価は範囲内か？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="440" width="70" height="80" as="geometry" />
+          <mxGeometry x="700" y="517.55" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-19" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-7" target="uWYxpY_xJqgRA1MKXE2g-3">
           <mxGeometry relative="1" as="geometry" />
@@ -56,22 +64,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-7" value="書籍レビューの長さは正しいか？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="440" width="70" height="80" as="geometry" />
+          <mxGeometry x="840" y="517.55" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="uWYxpY_xJqgRA1MKXE2g-10" value="レビューを拒絶する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="610" width="70" height="80" as="geometry" />
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-44" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-10" target="uWYxpY_xJqgRA1MKXE2g-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uWYxpY_xJqgRA1MKXE2g-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-11" target="uWYxpY_xJqgRA1MKXE2g-12">
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-10" value="表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="900" y="630" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-11" target="uWYxpY_xJqgRA1MKXE2g-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-11" value="「書籍詳細」ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="50" width="100" height="80" as="geometry" />
+          <mxGeometry x="510" y="220" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-12" target="HRKtO4Kyq1DwwRxE1as--5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-12" value="表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="50" width="70" height="80" as="geometry" />
+          <mxGeometry x="790" y="200" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-31" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-24" target="uWYxpY_xJqgRA1MKXE2g-30">
           <mxGeometry relative="1" as="geometry" />
@@ -82,16 +93,58 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-24" value="確認ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="420" width="100" height="80" as="geometry" />
+          <mxGeometry x="350" y="497.55" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="uWYxpY_xJqgRA1MKXE2g-27" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-26" target="uWYxpY_xJqgRA1MKXE2g-24">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-27" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0.141;exitY=0.909;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-26" target="uWYxpY_xJqgRA1MKXE2g-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="551.7375425253092" y="479.9965969905298" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-26" value="表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="320" width="70" height="80" as="geometry" />
+          <mxGeometry x="560" y="414" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uWYxpY_xJqgRA1MKXE2g-30" value="顧客レビューを審査する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="610" width="180" height="80" as="geometry" />
+          <mxGeometry x="430" y="700" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-33" value="顧客セッション" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-36" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-34" target="uWYxpY_xJqgRA1MKXE2g-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-34" target="uWYxpY_xJqgRA1MKXE2g-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-40" value="いいえ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uWYxpY_xJqgRA1MKXE2g-38">
+          <mxGeometry x="0.1003" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-41" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-34" target="uWYxpY_xJqgRA1MKXE2g-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-42" value="はい" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uWYxpY_xJqgRA1MKXE2g-41">
+          <mxGeometry x="-0.3031" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-34" value="ユーザーはログインしているか？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-39" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-37" target="uWYxpY_xJqgRA1MKXE2g-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-37" value="ログインする" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-43" value="レビュー拒否ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="775" y="710" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-48" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="uWYxpY_xJqgRA1MKXE2g-46" target="uWYxpY_xJqgRA1MKXE2g-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uWYxpY_xJqgRA1MKXE2g-46" value="表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="640" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
