@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T01:19:08.265Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="C2Sxmdsdc-uynmCrF7IL" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T04:06:48.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="WQ1ewi-R_5b9vm3oSA-S" version="16.5.6" type="github">
   <diagram id="DGkYznJSPutk3NiBNSYJ" name="Page-1">
     <mxGraphModel dx="1681" dy="1168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7,8 +7,19 @@
         <mxCell id="HRKtO4Kyq1DwwRxE1as--1" value="&lt;b&gt;&lt;br&gt;基本コース：&lt;/b&gt;&lt;br&gt;顧客は現在表示されている書籍の「レビューを書く」ボタンをクリックする。そして、システムは「レビューの記入」画面を表示する。顧客は書籍レビューを入力し、書籍評価を５つ星までの範囲で指定し「送信」ボタンをクリックする。システムはレビューが短すぎたり長すぎたりしないか、書籍評価が1〜５の間となっているかどうかを確認する。そしてシステムは確認ページを表示し、レビューを追加するためにモデレータに送る。&lt;br&gt;&lt;br&gt;&lt;b&gt;代替コース：&lt;br&gt;&lt;/b&gt;ユーザーがログインんしていない：&lt;br&gt;ユーザーはまずログイン画面を表示し、ログインしてからもう一度「レビューの記入」画面に移動する。&lt;br&gt;&lt;br&gt;&lt;br&gt;ユーザーが書いたレビューが長すぎる（1MBより長い文章）:&lt;br&gt;システムはレビューを拒絶し、レビューが拒絶された理由を説明するメッセージを表示する。&lt;br&gt;&lt;br&gt;レビューが短すぎる場合（10文字未満）:&lt;br&gt;システムはレビューを拒絶する。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="50" y="80" width="190" height="640" as="geometry" />
         </mxCell>
+        <mxCell id="HRKtO4Kyq1DwwRxE1as--6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRKtO4Kyq1DwwRxE1as--2" target="HRKtO4Kyq1DwwRxE1as--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRKtO4Kyq1DwwRxE1as--7" value="レビューを書く" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HRKtO4Kyq1DwwRxE1as--6">
+          <mxGeometry x="0.2165" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HRKtO4Kyq1DwwRxE1as--2" value="顧客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRKtO4Kyq1DwwRxE1as--5" value="レビュー記入画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="90" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
