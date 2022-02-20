@@ -1,14 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T03:37:23.836Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="j7uYK4eFt1zSlbA1OLNs" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-20T06:06:34.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cxc23W3APSi8a_Q1TPNx" version="16.6.1" type="github">
   <diagram id="aGCkIseqGI1leubLr1yX" name="Page-1">
     <mxGraphModel dx="1059" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BQXDcaqlMqostFEVmlwC-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="BQXDcaqlMqostFEVmlwC-2" target="BQXDcaqlMqostFEVmlwC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BQXDcaqlMqostFEVmlwC-2" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="240" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BQXDcaqlMqostFEVmlwC-3" value="&lt;br&gt;&lt;b&gt;基本コース：&lt;br&gt;&lt;/b&gt;顧客はログインページから「アカウント新規作成」ボタンをクリックし、システムは「新規アカウント作成」ページを表示する。顧客はメールアドレスとこのシステムで利用するパスワード、確認用パスワードを入力する。メールアドレスとパスワードの仕様があっていてかつ、入力したパスワードと確認用パスワードが一致し、入力したメールアドレスが既にシステムに登録されていなかったならば、顧客アカウントを新規に作成する。&lt;br&gt;&lt;br&gt;&lt;b&gt;代替コース：&lt;/b&gt;&lt;br&gt;&lt;b&gt;入力したメールアドレスが既にシステムに登録されている：&lt;/b&gt;&lt;br&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="BQXDcaqlMqostFEVmlwC-3" value="&lt;br&gt;&lt;b&gt;基本コース：&lt;br&gt;&lt;/b&gt;顧客はログインページから「顧客アカウント新規作成」リンクをクリックし、システムは「新規顧客アカウント作成」ページを表示する。顧客はメールアドレスとこのシステムで利用するパスワード、確認用パスワードを入力する。メールアドレスとパスワードの仕様があっていてかつ、入力したパスワードと確認用パスワードが一致し、入力したメールアドレスが既にシステムに登録されていなかったならば、顧客アカウントを新規に作成する。&lt;br&gt;&lt;br&gt;&lt;b&gt;代替コース：&lt;/b&gt;&lt;br&gt;&lt;b&gt;入力したメールアドレスが既にシステムに登録されている：&lt;/b&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="50" y="150" width="200" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="BQXDcaqlMqostFEVmlwC-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=18;entryX=0.395;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BQXDcaqlMqostFEVmlwC-5" target="BQXDcaqlMqostFEVmlwC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQXDcaqlMqostFEVmlwC-9" value="「新規アカウント作成」リンクをクリックする" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BQXDcaqlMqostFEVmlwC-8">
+          <mxGeometry x="0.1053" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQXDcaqlMqostFEVmlwC-5" value="「ログイン」ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQXDcaqlMqostFEVmlwC-7" value="新規顧客アカウント作成ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="374" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQXDcaqlMqostFEVmlwC-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;endSize=18;" edge="1" parent="1" source="BQXDcaqlMqostFEVmlwC-10" target="BQXDcaqlMqostFEVmlwC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BQXDcaqlMqostFEVmlwC-10" value="「新規顧客アカウント作成」ページを表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="374" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BQXDcaqlMqostFEVmlwC-13" value="「メールアドレス」を入力する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="374" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
