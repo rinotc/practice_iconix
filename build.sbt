@@ -27,9 +27,9 @@ lazy val `online-bookstore-domain` = (project in file("online-bookstore-domain")
     )
   )
 
-lazy val `rest-api-interface-akka` = (project in file("rest-api-interface-akka"))
+lazy val `practice-akka` = (project in file("practice-akka"))
   .settings(
-    name := "rest-api-interface-akka",
+    name := "practice-akka",
     libraryDependencies ++= Seq(
       "com.typesafe.akka" %% "akka-actor-typed"     % AkkaVersion,
       "com.typesafe.akka" %% "akka-stream"          % AkkaVersion,
