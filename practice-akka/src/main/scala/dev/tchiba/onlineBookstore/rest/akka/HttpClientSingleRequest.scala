@@ -13,8 +13,6 @@ object HttpClientSingleRequest {
     implicit val system: ActorSystem[Nothing]               = ActorSystem(Behaviors.empty, "SingleRequest")
     implicit val executionContext: ExecutionContextExecutor = system.executionContext
 
-    println("Hello World")
-
     val responseFuture: Future[HttpResponse] = Http().singleRequest(HttpRequest(uri = "http://localhost:8080/auction"))
 
     responseFuture
