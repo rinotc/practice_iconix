@@ -31,8 +31,9 @@ lazy val `rest-api-interface-akka` = (project in file("rest-api-interface-akka")
   .settings(
     name := "rest-api-interface-akka",
     libraryDependencies ++= Seq(
-      "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,
-      "com.typesafe.akka" %% "akka-stream"      % AkkaVersion,
-      "com.typesafe.akka" %% "akka-http"        % AkkaHttpVersion
+      "com.typesafe.akka" %% "akka-actor-typed"     % AkkaVersion,
+      "com.typesafe.akka" %% "akka-stream"          % AkkaVersion,
+      "com.typesafe.akka" %% "akka-http"            % AkkaHttpVersion,
+      "com.typesafe.akka" %% "akka-http-spray-json" % AkkaHttpVersion
     )
   )
