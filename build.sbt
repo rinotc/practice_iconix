@@ -1,3 +1,5 @@
+import Dependencies._
+
 ThisBuild / organization := "dev.tchiba"
 ThisBuild / scalaVersion := "2.13.6"
 ThisBuild / version := "1.0"
@@ -23,7 +25,7 @@ lazy val `online-bookstore-domain` = (project in file("online-bookstore-domain")
   .settings(
     name := "online-bookstore-domain",
     libraryDependencies ++= Seq(
-      "org.scalatest" %% "scalatest" % "3.2.11" % Test
+      ScalaTest.`scalatest` % Test
     )
   )
 
@@ -31,12 +33,12 @@ lazy val `practice-akka` = (project in file("practice-akka"))
   .settings(
     name := "practice-akka",
     libraryDependencies ++= Seq(
-      "com.typesafe.akka" %% "akka-actor-typed"     % AkkaVersion,
-      "com.typesafe.akka" %% "akka-stream"          % AkkaVersion,
-      "com.typesafe.akka" %% "akka-slf4j"           % AkkaVersion,
-      "com.typesafe.akka" %% "akka-http"            % AkkaHttpVersion,
-      "com.typesafe.akka" %% "akka-http-spray-json" % AkkaHttpVersion,
-      "ch.qos.logback"     % "logback-classic"      % "1.2.10",
-      "com.typesafe"       % "config"               % "1.4.2"
+      TypeSafe.Akka.`akka-actor-typed`,
+      TypeSafe.Akka.`akka-stream`,
+      TypeSafe.Akka.`akka-slf4j`,
+      TypeSafe.Akka.`akka-http`,
+      TypeSafe.Akka.`akka-http-spray-json`,
+      TypeSafe.config,
+      Logback.`logback-classic`
     )
   )
