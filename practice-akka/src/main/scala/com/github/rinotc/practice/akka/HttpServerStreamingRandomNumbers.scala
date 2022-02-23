@@ -1,4 +1,4 @@
-package dev.tchiba.onlineBookstore.rest.akka
+package com.github.rinotc.practice.akka
 
 import akka.NotUsed
 import akka.actor.typed.ActorSystem

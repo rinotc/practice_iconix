@@ -1,4 +1,4 @@
-package dev.tchiba.onlineBookstore.rest.akka
+package com.github.rinotc.practice.akka
 
 import akka.actor.typed.scaladsl.AskPattern.{Askable, schedulerFromActorSystem}
 import akka.actor.typed.scaladsl.Behaviors
