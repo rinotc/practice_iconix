@@ -9,7 +9,7 @@ import akka.http.scaladsl.model._
 import scala.concurrent.ExecutionContextExecutor
 import scala.io.StdIn
 
-object HttpServerKLowLevel {
+object HttpServerLowLevel {
 
   def main(args: Array[String]): Unit = {
     implicit val system: ActorSystem[Nothing]               = ActorSystem(Behaviors.empty, "lowLevel")
