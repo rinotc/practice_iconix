@@ -21,6 +21,14 @@ lazy val `root` = (project in file("."))
     libraryDependencies ++= Seq()
   )
 
+lazy val `ddd-base` = (project in file("ddd-base"))
+  .settings(
+    name := "ddd-base",
+    libraryDependencies ++= Seq(
+      ScalaTest.`scalatest` % Test
+    )
+  )
+
 lazy val `online-bookstore-domain` = (project in file("online-bookstore-domain"))
   .settings(
     name := "online-bookstore-domain",
