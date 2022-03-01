@@ -9,8 +9,6 @@ trait EntityId[A] {
 
   val value: A
 
-  /**
-   */
   def canEqual(that: Any): Boolean
 
   override def equals(other: Any): Boolean = other match {

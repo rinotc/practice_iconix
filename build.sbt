@@ -30,6 +30,7 @@ lazy val `ddd-base` = (project in file("ddd-base"))
   )
 
 lazy val `online-bookstore-domain` = (project in file("online-bookstore-domain"))
+  .dependsOn(`ddd-base`)
   .settings(
     name := "online-bookstore-domain",
     libraryDependencies ++= Seq(
