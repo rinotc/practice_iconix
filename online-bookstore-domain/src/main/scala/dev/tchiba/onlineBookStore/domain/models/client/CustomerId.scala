@@ -2,14 +2,12 @@ package dev.tchiba.onlineBookStore.domain.models.client
 
 import dev.tchiba.ddd.base.EntityId
 
-import java.util.UUID
-
 /**
  * 顧客ID
  */
-final class ClientId(val value: UUID) extends EntityId[UUID] {
+final class CustomerId(val value: Long) extends EntityId[Long] {
 
-  override def canEqual(that: Any): Boolean = that.isInstanceOf[ClientId]
+  override def canEqual(that: Any): Boolean = that.isInstanceOf[CustomerId]
 
   override def toString = s"ClientId($value)"
 }
