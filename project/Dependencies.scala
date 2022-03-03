@@ -10,6 +10,21 @@ object Dependencies {
     val `scalatest` = "org.scalatest" %% "scalatest" % "3.2.11"
   }
 
+  object Refined {
+    private val RefinedVersion = "0.9.28"
+
+    val `refined`            = "eu.timepit" %% "refined"            % RefinedVersion
+    val `refined-cats`       = "eu.timepit" %% "refined-cats"       % RefinedVersion // optional
+    val `refined-eval`       = "eu.timepit" %% "refined-eval"       % RefinedVersion // optional, JVM-only
+    val `refined-jsonpath`   = "eu.timepit" %% "refined-jsonpath"   % RefinedVersion // optional, JVM-only
+    val `refined-pureconfig` = "eu.timepit" %% "refined-pureconfig" % RefinedVersion // optional, JVM-only
+    val `refined-scalacheck` = "eu.timepit" %% "refined-scalacheck" % RefinedVersion // optional
+    val `refined-scalaz`     = "eu.timepit" %% "refined-scalaz"     % RefinedVersion // optional
+    val `refined-scodec`     = "eu.timepit" %% "refined-scodec"     % RefinedVersion // optional
+    val `refined-scopt`      = "eu.timepit" %% "refined-scopt"      % RefinedVersion // optional
+    val `refined-shapeless`  = "eu.timepit" %% "refined-shapeless"  % RefinedVersion // optional
+  }
+
   object TypeSafe {
 
     val config = "com.typesafe" % "config" % "1.4.2"

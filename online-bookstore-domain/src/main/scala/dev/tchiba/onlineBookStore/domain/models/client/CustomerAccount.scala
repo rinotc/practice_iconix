@@ -12,5 +12,6 @@ final class CustomerAccount(
     val id: CustomerId,
     val name: String
 ) extends Entity[CustomerId] {
+
   override def canEqual(that: Any): Boolean = that.isInstanceOf[CustomerAccount]
 }

@@ -34,7 +34,8 @@ lazy val `online-bookstore-domain` = (project in file("online-bookstore-domain")
   .settings(
     name := "online-bookstore-domain",
     libraryDependencies ++= Seq(
-      ScalaTest.`scalatest` % Test
+      ScalaTest.`scalatest` % Test,
+      Refined.`refined`
     )
   )
 
